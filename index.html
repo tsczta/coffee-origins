@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>咖啡豆產區圖鑑</title>
+  <meta name="description" content="用一頁看懂一個咖啡產區：海拔、品種、處理法、風味分數與沖煮建議。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">咖啡豆產區圖鑑<small>Coffee Origins</small></a>
+      <nav class="nav"><a href="index.html" aria-current="page">產區</a><a href="glossary.html">小辭典</a></nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>一杯咖啡，從哪裡來？</h1>
+      <p class="lede">同樣是咖啡，衣索比亞喝起來像花茶，蘇門答臘卻像黑巧克力。這裡用一頁介紹一個產區：海拔、品種、處理法、風味分數，還有回家怎麼沖。</p>
+    </section>
+
+    <div id="filters" class="filters" role="group" aria-label="依洲別篩選"></div>
+    <div id="origin-grid" class="grid"></div>
+
+    <section class="section" style="margin-top:48px">
+      <h2>怎麼看風味分數？</h2>
+      <div class="prose">
+        <p>每個產區都用同一套 1–5 分標準描述<a href="glossary.html#acidity">酸度</a>、<a href="glossary.html#sweetness">甜感</a>、<a href="glossary.html#body">醇厚度</a>與<a href="glossary.html#bitterness">苦韻</a>，方便橫向比較。分數代表該產區在常見烘焙度下的典型表現，實際喝到的味道仍會因批次、烘焙與沖煮而不同。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">咖啡豆產區圖鑑・資料為常見範圍，實際風味依批次、烘焙與沖煮而異。</div>
+  </footer>
+
+  <script src="data/origins.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
